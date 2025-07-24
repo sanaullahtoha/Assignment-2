@@ -1,0 +1,99 @@
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+ body{
+    max-width: 1140px;
+    margin: 0 auto;
+
+/* Navbar related style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: bold;
+}
+.text-color{
+   color: #8987A1; 
+}
+
+}
+/* Banner Style */
+.banner{
+    display: flex;
+
+    margin-top: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-left{
+
+width: 570px;
+height: 297px;
+
+}
+.flower{
+ color: rgb(233, 90, 8);
+font-weight: 700;
+}
+.banner h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner p{
+color: rgba(0, 0, 0, 0.5);
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+}
+.banner img{
+width: 570px;
+height: 355px;
+}
+    /* OUR PLANTS */
+.our-plants{
+margin-top: 120px;
+
+
+}
+.our-plants h3{
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+  
+}
+.our-plants p{
+max-width: 888px;
+color: rgba(0, 0, 0, 0.5);
+font-size: 22px;
+font-weight: 400;
+text-align:center;
+}
+/* CARD */
+.card{
+    max-width: 270px;
+    border: 2px solid black;
+    
+   }
+.{
+    align-items: center;
+     justify-content: center;
+}
+button{
+    background-color: rgb(233, 90, 8) ;
+    color: white;
+    border: none ;
+}
